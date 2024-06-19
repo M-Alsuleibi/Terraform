@@ -8,7 +8,9 @@ This repository demonstrates how to cross-reference resource attributes in Terra
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Resources](#resources)
+- [Branching Strategy](#branching-strategy)
 - [Screenshots](#screenshots)
+
 
 
 
@@ -115,6 +117,12 @@ resource "aws_instance" "example" {
   security_groups = [aws_security_group.example.name]
 }
 ```
+## branching-strategy:
+This repository contains different branches for various Terraform topics. Each branch focuses on a specific topic or feature. 
+1. `main` branch: Contains the primary example of cross-referencing resource attributes in Terraform.
+2. `outpu_value` branch: Demonstrates how to use output values in Terraform
+
+
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
