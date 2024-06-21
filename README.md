@@ -129,6 +129,12 @@ This repository contains different branches for various Terraform topics. Each b
 
   - Demonstrates the use of the `count` parameter and `count.index` attribute to create multiple resources dynamically.
   - Creates three different IAM users using the `count` parameter and variable list for user names.
+
+5. `conditional_exp` branch:
+
+  - Illustrates the use of conditional expressions in Terraform to dynamically control resource creation based on a variable.
+  - Creates either three `t2.micro` instances for a development environment or one `t2.large` instance for a production environment based on the value of the `is_test` variable.
+
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
