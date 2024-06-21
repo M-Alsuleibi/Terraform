@@ -122,10 +122,13 @@ This repository contains different branches for various Terraform topics. Each b
 1. `main` branch: Contains the primary example of cross-referencing resource attributes in Terraform.
 2. `outpu_value` branch: Demonstrates how to use output values in Terraform
 3. `terraform_variables` branch:
-- Instead of using repeated static values, this branch uses variables declared in the `variables.tf` file.
-- For variable assignment, there are several approaches (environment variables, command line flags, file formats, and variable defaults). Here, the `terraform.tfvars` file is used, which is the best and most common way to manage variables in Terraform.
-- Adds type constraints (string, number, list, map, etc.) to variables, which is a best practice.
+  - Instead of using repeated static values, this branch uses variables declared in the `variables.tf` file.
+  - For variable assignment, there are several approaches (environment variables, command line flags, file formats, and variable defaults). Here, the `terraform.tfvars` file is used, which is the best and most common way to manage variables in Terraform.
+  - Adds type constraints (string, number, list, map, etc.) to variables, which is a best practice.
+4. `count_parameter` branch:
 
+  - Demonstrates the use of the `count` parameter and `count.index` attribute to create multiple resources dynamically.
+  - Creates three different IAM users using the `count` parameter and variable list for user names.
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
