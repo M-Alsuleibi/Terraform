@@ -12,9 +12,8 @@ provider "aws" {
 region = "eu-west-2"
 }
 
-resource "aws_instance" "this" {
+resource "aws_instance" "myec2" {
   ami                     = "ami-0dcc1e21636832c5d"
-  instance_type           = var.instancetype
-  host_resource_group_arn = "arn:aws:resource-groups:us-west-2:012345678901:group/win-testhost"
-  tenancy                 = "host"
+  instance_type           = var.map_type["eu-west-2"]
+
 }
