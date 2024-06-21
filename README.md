@@ -121,7 +121,10 @@ resource "aws_instance" "example" {
 This repository contains different branches for various Terraform topics. Each branch focuses on a specific topic or feature. 
 1. `main` branch: Contains the primary example of cross-referencing resource attributes in Terraform.
 2. `outpu_value` branch: Demonstrates how to use output values in Terraform
-
+3. `terraform_variables` branch:
+- Instead of using repeated static values, this branch uses variables declared in the `variables.tf` file.
+- For variable assignment, there are several approaches (environment variables, command line flags, file formats, and variable defaults). Here, the `terraform.tfvars` file is used, which is the best and most common way to manage variables in Terraform.
+- Adds type constraints (string, number, list, map, etc.) to variables, which is a best practice.
 
 ## Screenshots:
 
