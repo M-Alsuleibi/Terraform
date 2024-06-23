@@ -135,6 +135,18 @@ This repository contains different branches for various Terraform topics. Each b
   - Illustrates the use of conditional expressions in Terraform to dynamically control resource creation based on a variable.
   - Creates either three `t2.micro` instances for a development environment or one `t2.large` instance for a production environment based on the value of the `is_test` variable.
 
+6. `terraform_functions` branch:
+[Documentation for thw functions](https://developer.hashicorp.com/terraform/language/functions)
+  - Using functions in different categories:
+      - String Functions:
+        - `formatdate()`: Formats a given timestamp according to a specified layout.
+      - Collection Functions:
+        - `lookup()`: Looks up a single value in a map.
+        - `length()`: Returns the number of elements in a list or map.
+        - `element()`: Retrieves a single element from a list by index.
+      - Time Functions:
+        - `timestamp()`: Returns the current timestamp in UTC.
+
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
