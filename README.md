@@ -136,7 +136,7 @@ This repository contains different branches for various Terraform topics. Each b
   - Creates either three `t2.micro` instances for a development environment or one `t2.large` instance for a production environment based on the value of the `is_test` variable.
 
 6. `terraform_functions` branch:
-[Documentation for thw functions](https://developer.hashicorp.com/terraform/language/functions)
+[Documentation for the functions](https://developer.hashicorp.com/terraform/language/functions)
   - Using functions in different categories:
       - String Functions:
         - `formatdate()`: Formats a given timestamp according to a specified layout.
