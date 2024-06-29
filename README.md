@@ -151,6 +151,11 @@ This repository contains different branches for various Terraform topics. Each b
     - Demonstrates the use of data sources in Terraform to fetch information about existing resources.
     - Fetches the most recent Ubuntu AMI and uses it to launch an EC2 instance.
 
+8. **`dynamic_blocks` branch:**
+    - Demonstrates the use of dynamic blocks in Terraform to generate repeated configurations.
+    - Shows a comparison between hardcoded ingress rules and dynamically generated ingress rules for an AWS Security Group.
+    - Utilizes the `for_each` and `iterator` features in dynamic blocks to iterate over a list of ports and create ingress and egress rules.
+
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
