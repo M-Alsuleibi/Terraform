@@ -147,6 +147,10 @@ This repository contains different branches for various Terraform topics. Each b
       - Time Functions:
         - `timestamp()`: Returns the current timestamp in UTC.
 
+7. **`data_sources` branch:**
+    - Demonstrates the use of data sources in Terraform to fetch information about existing resources.
+    - Fetches the most recent Ubuntu AMI and uses it to launch an EC2 instance.
+
 ## Screenshots:
 
 ![alt text](<Screenshot from 2024-06-18 15-09-27.png>)
